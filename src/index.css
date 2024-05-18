@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  @apply text-gray-500;
+}
+.right_0 {
+  right: 0;
+}
+.right_200 {
+  right: -150%;
+}
+.easeInOut {
+  transition: all ease-in-out 0.5s;
+}
+.scale-101 {
+  scale: calc(101%);
+}
+.scrollbar-styled::-webkit-scrollbar-track {
+  width: 2px;
+}
+
+.scrollbar-styled::-webkit-scrollbar-track {
+  width: 2px;
+}
+
+.scrollbar-styled::-webkit-scrollbar {
+  width: 2px;
+  background-color: transparent;
+}
+
+.scrollbar-styled::-webkit-scrollbar-thumb {
+  background-color: rgb(148, 148, 148);
+  width: 2px;
+}
+
+.scrollbar-styled::-webkit-scrollbar-track-piece {
+  width: 2px;
+}
